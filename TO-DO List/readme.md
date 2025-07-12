@@ -1,4 +1,4 @@
-### 📝 Task 2: To-Do List App (GUI)
+### 📝 Task 1: To-Do List App (GUI)
 A minimal and efficient to-do list application built using Tkinter:
 
 - 🆕 Add & 🗑️ Delete tasks  
