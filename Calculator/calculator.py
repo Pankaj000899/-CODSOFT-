@@ -54,52 +54,52 @@ f2 = Frame(root,borderwidth = 5, relief = SUNKEN,bg = "grey")
 f2.pack()
 
 # BUTTON
-button1= Button(f2,text = "1",fg = "black",bg = "orange",width = 12, height = 4,command =  lambda: Btn_Click(1))
+button1= Button(f2,text = "1",fg = "white",bg = "blue",width = 12, height = 4,command =  lambda: Btn_Click(1))
 button1.grid(row = 1,column = 0)
 
-button2= Button(f2,text = "2",fg = "black",bg = "orange",width = 12, height = 4,command =  lambda: Btn_Click(2))
+button2= Button(f2,text = "2",fg = "white",bg = "blue",width = 12, height = 4,command =  lambda: Btn_Click(2))
 button2.grid(row = 1,column = 1)
 
-button3= Button(f2,text = "3",fg = "black",bg = "orange",width = 12, height = 4,command =  lambda: Btn_Click(3))
+button3= Button(f2,text = "3",fg = "white",bg = "blue",width = 12, height = 4,command =  lambda: Btn_Click(3))
 button3.grid(row = 1,column = 2)
 
-button_multiply= Button(f2,text = "X",fg = "black",bg = "yellow",width = 14, height = 4,command =  lambda: ArithmeticOperation("*"))
+button_multiply= Button(f2,text = "X",fg = "white",bg = "black",width = 14, height = 4,command =  lambda: ArithmeticOperation("*"))
 button_multiply.grid(row = 1,column = 3)
 
-button4= Button(f2,text = "4",fg = "black",bg = "orange",width = 12, height = 4,command =  lambda: Btn_Click(4))
+button4= Button(f2,text = "4",fg = "white",bg = "blue",width = 12, height = 4,command =  lambda: Btn_Click(4))
 button4.grid(row = 2,column = 0)
 
-button5= Button(f2,text = "5",fg = "black",bg = "orange",width = 12, height = 4,command =  lambda: Btn_Click(5))
+button5= Button(f2,text = "5",fg = "white",bg = "blue",width = 12, height = 4,command =  lambda: Btn_Click(5))
 button5.grid(row = 2,column = 1)
 
-button6= Button(f2,text = "6",fg = "black",bg = "orange",width = 12, height = 4,command =  lambda: Btn_Click(6))
+button6= Button(f2,text = "6",fg = "white",bg = "blue",width = 12, height = 4,command =  lambda: Btn_Click(6))
 button6.grid(row = 2,column = 2)
 
-button_subtract= Button(f2,text = "-",fg = "black",bg = "yellow",width = 14, height = 4,command =  lambda: ArithmeticOperation("-"))
+button_subtract= Button(f2,text = "-",fg = "white",bg = "black",width = 14, height = 4,command =  lambda: ArithmeticOperation("-"))
 button_subtract.grid(row = 2,column = 3)
 
-button7= Button(f2,text = "7",fg = "black",bg = "orange",width = 12, height = 4,command =  lambda: Btn_Click(7))
+button7= Button(f2,text = "7",fg = "white",bg = "blue",width = 12, height = 4,command =  lambda: Btn_Click(7))
 button7.grid(row = 3,column = 0)
 
-button8= Button(f2,text = "8",fg = "black",bg = "orange",width = 12, height = 4,command =  lambda: Btn_Click(8))
+button8= Button(f2,text = "8",fg = "white",bg = "blue",width = 12, height = 4,command =  lambda: Btn_Click(8))
 button8.grid(row = 3,column = 1)
 
-button9= Button(f2,text = "9",fg = "black",bg = "orange",width = 12, height = 4,command =  lambda: Btn_Click(9))
+button9= Button(f2,text = "9",fg = "white",bg = "blue",width = 12, height = 4,command =  lambda: Btn_Click(9))
 button9.grid(row = 3,column = 2)
 
-button_addition= Button(f2,text = "+",fg = "black",bg = "yellow",width = 14, height = 4,command =  lambda: ArithmeticOperation("+"))
+button_addition= Button(f2,text = "+",fg = "white",bg = "black",width = 14, height = 4,command =  lambda: ArithmeticOperation("+"))
 button_addition.grid(row = 3,column = 3)
 
-button0= Button(f2,text = "0",fg = "black",bg = "orange",width = 12, height = 4,command =  lambda: Btn_Click(0))
+button0= Button(f2,text = "0",fg = "white",bg = "blue",width = 12, height = 4,command =  lambda: Btn_Click(0))
 button0.grid(row = 4,column = 0)
 
-button_clear= Button(f2,text = "C",fg = "black",bg = "green",width = 12, height = 4,command = clear)
+button_clear= Button(f2,text = "C",fg = "white",bg = "blue",width = 12, height = 4,command = clear)
 button_clear.grid(row = 4,column = 1)
 
-button_equal= Button(f2,text = "=",width = 12, height = 4,fg = "black",bg = "green",command = equal)
+button_equal= Button(f2,text = "=",width = 12, height = 4,fg = "white",bg = "red",command = equal)
 button_equal.grid(row = 4,column = 2)
 
-button_division= Button(f2,text = "/",fg = "black",bg = "yellow",width = 14, height = 4,command =  lambda: ArithmeticOperation("/"))
+button_division= Button(f2,text = "/",fg = "white",bg = "black",width = 14, height = 4,command =  lambda: ArithmeticOperation("/"))
 button_division.grid(row = 4,column = 3)
 
 root.mainloop()
