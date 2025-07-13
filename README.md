@@ -16,7 +16,18 @@ Welcome to my official submission for the **CodSoft Virtual Internship Program**
 
 ## 📁 Project Tasks
 
-### 🧮 Task 1: Command-Line Calculator
+### 📝 Task 1: To-Do List App (GUI)
+A minimal and efficient to-do list application built using Tkinter:
+
+- 🆕 Add & 🗑️ Delete tasks  
+- 💾 Persistent data storage using **JSON**  
+- 🎨 Clean and user-friendly interface  
+
+> ✅ Ideal for managing daily tasks with ease  
+
+---
+
+### 🧮 Task 2: Calculator
 A basic calculator application built in Python that supports the following operations:
 
 - ➕ Addition  
@@ -28,18 +39,31 @@ A basic calculator application built in Python that supports the following opera
 
 ---
 
-### 📝 Task 2: To-Do List App (GUI)
-A minimal and efficient to-do list application built using Tkinter:
+# 🔐 Task 3:Random Password Generator - Python & Tkinter
 
-- 🆕 Add & 🗑️ Delete tasks  
-- 💾 Persistent data storage using **JSON**  
-- 🎨 Clean and user-friendly interface  
-
-> ✅ Ideal for managing daily tasks with ease  
+A secure and customizable password generator application built with **Python** and **Tkinter**. This GUI-based tool allows users to quickly generate strong, random passwords based on selected criteria such as length, character type, and symbols.
 
 ---
 
-### 🎮 Task 3: Rock-Paper-Scissors Game (GUI)
+## 📌 Features
+
+- 🔢 Select custom password length
+- 🔡 Include uppercase & lowercase letters
+- 📋 One-click password generation
+- 🧠 Real-time password display
+- ✅ Error handling for better user experience
+
+---
+
+## 🛠️ Technologies Used
+
+- Python 🐍
+- Tkinter (for GUI development)
+- `random` & `string` modules
+
+---
+
+### 🎮 Task 4: Rock-Paper-Scissors Game (GUI)
 An interactive GUI game built using Tkinter, offering:
 
 - 🆚 Real-time score tracking  
@@ -49,6 +73,7 @@ An interactive GUI game built using Tkinter, offering:
 > ✅ Great example of event-driven programming in Python
 
 ---
+
 
 ## 📌 Submission Note
 
