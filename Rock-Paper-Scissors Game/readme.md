@@ -1,4 +1,4 @@
-### 🎮 Task 3: Rock-Paper-Scissors Game (GUI)
+### 🎮 Task 4: Rock-Paper-Scissors Game (GUI)
 An interactive GUI game built using Tkinter, offering:
 
 - 🆚 Real-time score tracking  
